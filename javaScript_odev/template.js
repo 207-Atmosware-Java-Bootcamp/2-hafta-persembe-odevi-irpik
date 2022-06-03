@@ -1,6 +1,6 @@
 var numberInput = Number(window.prompt("Lütfen bir sayı giriniz"));
 
-while(numberInput < 1){
+while(numberInput <= 1){
     numberInput = Number(window.prompt("Lütfen 1'den büyük sayı giriniz.!!"));
 }
 if (numberInput !== 44) {
